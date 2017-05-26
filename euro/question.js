@@ -1,0 +1,33 @@
+function Question(r)
+{
+  this.text=table.getString(r,0);
+  this.money=parseInt(table.getString(r,1));
+  if(this.money==999)
+    this.money=ceil(random(20)-10);
+  this.people=parseInt(table.getString(r,2));
+  if(this.people==999)
+    this.people=ceil(random(20)-10);
+  this.clergy=parseInt(table.getString(r,3));
+  if(this.clergy==999)
+    this.clergy=ceil(random(20)-10);
+  this.army=parseInt(table.getString(r,4));
+  if(this.army==999)
+    this.army=ceil(random(20)-10);
+  this.yes=function(verdad)
+  {
+    if(verdad==true)
+    { 
+      player.money+=this.money;
+      player.people+=this.people;
+      player.clergy+=this.clergy;
+      player.army+=this.army;
+    }
+    else
+    {
+      player.money-=this.money;
+      player.people-=this.people;
+      player.clergy-=this.clergy;
+      player.army-=this.army;
+    }
+  }
+}
