@@ -29,7 +29,7 @@ function setup() {
 player={money:15, people:15, clergy:15, army:15};
 textAlign(CENTER, CENTER);
 imageMode(CENTER);
-textSize(width/30);
+textSize(width/20);
 end=false;
 song.loop();
 }
@@ -57,9 +57,11 @@ function draw() {
     text(player.people, (2*width/5)+(width/20), height/10);
     text(player.clergy, (3*width/5)+(width/20), height/10);
     text(player.army, (4*width/5)+(width/20), height/10);
-    text(questions[cur].text, width/4, height/5, width/2, height/2);
+    text(questions[cur].text, width/6, height/10, 2*width/3, height/2);
+    textSize(width/10)
     text("YES", width/4, 5*height/6);
     text("NO", 3*width/4, 5*height/6);
+    textSize(width/20);
   } else if (end==true)
   {
     background(255);
@@ -90,7 +92,7 @@ function draw() {
 }
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-  textSize(width/30);
+  textSize(width/20);
   for (var i=0; i<numIcons; i++)
   {
     icons[i].resize(width/10, width/10);
@@ -98,7 +100,7 @@ function windowResized() {
 }
 function mouseClicked()
 {
-  if (end==false)
+  if (end==false && player.money>0 && player.clergy>0 && player.army>0 && player.people>0)
   {
     if (mouseX<width/2 && mouseY>2*height/3)
     {
