@@ -3,6 +3,7 @@ var table;
 var questions, cur;
 var player;
 var end;
+var song;
 
 function preload()
 {
@@ -11,6 +12,7 @@ function preload()
   for (var i=1; i<=numIcons; i++)
     icons.push(loadImage("data/"+i+".png"));
   table=loadTable("data/euro.csv", "csv", "header");
+  song=loadSound("data/max.mp3");
 }
 function setup() { 
   questions=[];
@@ -29,6 +31,7 @@ textAlign(CENTER, CENTER);
 imageMode(CENTER);
 textSize(width/30);
 end=false;
+song.loop();
 }
 
 function draw() {
