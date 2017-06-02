@@ -24,11 +24,11 @@ function setup() {
     icons[i].resize(width/10, width/10);
   }
   cur=0;
-  player={money:15, people:15, clergy:15, army:15};
-  textAlign(CENTER, CENTER);
-  imageMode(CENTER);
-  textSize(width/30);
-  end=false;
+player={money:15, people:15, clergy:15, army:15};
+textAlign(CENTER, CENTER);
+imageMode(CENTER);
+textSize(width/30);
+end=false;
 }
 
 function draw() {
@@ -57,37 +57,32 @@ function draw() {
     text(questions[cur].text, width/4, height/5, width/2, height/2);
     text("YES", width/4, 5*height/6);
     text("NO", 3*width/4, 5*height/6);
-  }
-  else if(end==true)
+  } else if (end==true)
   {
     background(255);
     fill(0);
-    text("You successfully brought your country out of the Middle Ages and into the 21st century.",width/4,0,width/2,height/2);
-    text("Final Stats:\nGDP: "+player.money+"\nFavorability with the People: "+player.people+"\nFavorability with the Church: "+player.clergy+"\nMilitary Might: "+player.army,width/4,height/3,width/2,height/2);
-  }
-  else if(player.army<=0)
+    text("You successfully brought your country out of the Middle Ages and into the 21st century.", width/4, 0, width/2, height/2);
+    text("Final Stats:\nGDP: "+player.money+"\nFavorability with the People: "+player.people+"\nFavorability with the Church: "+player.clergy+"\nMilitary Might: "+player.army, width/4, height/3, width/2, height/2);
+  } else if (player.army<=0)
   {
     background(0);
     fill(255);
-    text("Your army was too weak and you were invaded",width/4,height/4,width/2,height/2);
-  }
-  else if(player.money<=0)
+    text("Your army was too weak and you were invaded", width/4, height/4, width/2, height/2);
+  } else if (player.money<=0)
   {
     background(0);
     fill(255);
-    text("You ran out of money and your country went bankrupt",width/4,height/4,width/2,height/2);
-  }
-  else if(player.people<=0)
+    text("You ran out of money and your country went bankrupt", width/4, height/4, width/2, height/2);
+  } else if (player.people<=0)
   {
     background(0);
     fill(255);
-    text("Unable to rule by love or by fear, you have been beheaded by your own angry people",width/4,height/4,width/2,height/2);
-  }
-  else
+    text("Unable to rule by love or by fear, you have been beheaded by your own angry people", width/4, height/4, width/2, height/2);
+  } else
   {
     background(0);
     fill(255);
-    text("You managed to upset the church so much that God himself struck you with a bolt of lightning",width/4,height/4,width/2,height/2);
+    text("You managed to upset the church so much that God himself struck you with a bolt of lightning", width/4, height/4, width/2, height/2);
   }
 }
 function windowResized() {
@@ -100,20 +95,23 @@ function windowResized() {
 }
 function mouseClicked()
 {
-  if (mouseX<width/2 && mouseY>2*height/3)
+  if (end==false)
   {
-    questions[cur].yes(true);
-    if(cur+1<table.getRowCount())
-      cur++;
-    else
-      end=true;
+    if (mouseX<width/2 && mouseY>2*height/3)
+    {
+      questions[cur].yes(true);
+      if (cur+1<table.getRowCount())
+        cur++;
+      else
+        end=true;
+    }
+    if (mouseX>width/2 && mouseY>2*height/3 && cur+1<table.getRowCount())
+    {
+      questions[cur].yes(false);
+      if (cur+1<table.getRowCount())
+        cur++;
+      else
+        end=true
+      }
+    }
   }
-  if (mouseX>width/2 && mouseY>2*height/3 && cur+1<table.getRowCount())
-  {
-    questions[cur].yes(false);
-    if(cur+1<table.getRowCount())
-      cur++;
-    else
-      end=true
-  }
-}
