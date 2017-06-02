@@ -1,4 +1,4 @@
-Questions,Money,People,Clergy,Army,,Year This Occured (estimate),Historical Relevance
+"Questions - (effects assume that people answer ""yes"" to the question) 999=completely random effect",Money,People,Clergy,Army,,Year This Occured (estimate),Historical Relevance
 A new up and coming renaissance artist is requesting funds for his next work of art. Would you like to fund this endeavor?,999,999,0,0,,Fake event,
 "A young girl approaches you, claiming she can aid the army in the 100 years war",0,0,0,10,,1428,Joan of Ark
 Spain requests your help in hunting down heretics,5,-10,10,0,,1478,Spanish inquisition
@@ -6,3 +6,15 @@ A young man from Italy requests funds to find new trade routes,5,5,5,5,,1492,Col
 A young Spanish man requests funds to find new trade routes,-20,0,0,0,,Fake event,
 The pope is furious with a young man who painted obscenities on the Sistine Chapel. Do you punish the man?,0,-10,5,0,,1514,Michelangelo
 A monk by the name of Martin Luther decries the pope as the antichrist. Do you publicly endorse him?,0,15,-15,0,,1515,95 theses
+"Your western neighbors offer you a cartload of rodents as a peace offering, do you accept?",0,-15,0,5,,,Black Death
+Peasants crowd at your castle starving for food. Do you let them in?,-16,5,0,0,,,
+The clergy believe that cats bring bad luck. Do you exterminate cats as they request?,0,-10,5,0,,,Black Death
+There are reports coming in of priests not remaining celibant within your country. Will you punish them?,0,5,-10,0,,,
+The Italian man in search of trade routes has returned claiming he has sailed to India. Do you send any explorers?,7,0,2,1,,,
+The Spanish man in search of trade routes has returned claiming he has sailed to India. Do you send any explorers?,-6,-13,0,0,,,
+A well known scholar has been preaching that the Earth is round. Do you silence him?,0,8,9,0,,1543,Copernicus
+Henry VIII of England has just declared Anglicanism the new official religion. Will you continue trading with England?,999,999,-10,0,,,
+The Holy Roman Empire has sent some emmisaries to warn you against Lutheranism. Do you throw them out the window?,0,1,-7,0,,1618,Defenestration of Prague
+A group of protestant radicals has assembled in the Holy Roman Empire. Would you like to fund the movement?,-5,10,-5,-1,,,
+The people wish to organize a royal banquet at your castle. Do you accept?,-4,5,0,-3,,,
+The series of religious wars that has come to be known as the Thirty Years War has ended. Will you sign the Peace of Westphalia?,2,999,-10,5,,,
