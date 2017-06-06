@@ -1,20 +1,77 @@
-"Questions - (effects assume that people answer ""yes"" to the question) 999=completely random effect",Money,People,Clergy,Army,,Year This Occured (estimate),Historical Relevance
-A new up and coming renaissance artist is requesting funds for his next work of art. Would you like to fund this endeavor?,999,999,0,0,,Fake event,
-"A young girl approaches you, claiming she can aid the army in the 100 years war",0,0,0,10,,1428,Joan of Ark
-Spain requests your help in hunting down heretics,5,-10,10,0,,1478,Spanish inquisition
-A young man from Italy requests funds to find new trade routes,5,5,5,5,,1492,Columbus
-A young Spanish man requests funds to find new trade routes,-20,0,0,0,,Fake event,
-The pope is furious with a young man who painted obscenities on the Sistine Chapel. Do you punish the man?,0,-10,5,0,,1514,Michelangelo
-A monk by the name of Martin Luther decries the pope as the antichrist. Do you publicly endorse him?,0,15,-15,0,,1515,95 theses
-"Your western neighbors offer you a cartload of rodents as a peace offering, do you accept?",0,-15,0,5,,,Black Death
+"Questions - (effects assume that people answer ""yes"" to the question) 999=completely random effect",Money,People,Clergy,Army,,"Year 
+This Occured 
+(estimate)","Historical 
+Relevance"
+"A new up and coming renaissance artist is requesting funds for his next work of art. 
+Would you like to fund this endeavor?",999,999,5,0,,Fake event,N/A
+"A young girl approaches you, claiming she can aid the army in the 100 years war.",0,0,0,10,,1428,Joan of Ark
+Spain requests your help in hunting down heretics.,5,-10,10,0,,1478,Spanish Inquisition
+A young man from Italy requests funds to find new trade routes.,5,5,5,5,,1492,Columbus
+A young Spanish man requests funds to find new trade routes.,-20,0,0,0,,Fake event,N/A
+"The pope is furious with a young man who painted obscenities on the Sistine Chapel. 
+Do you punish the man?",0,-10,5,0,,1514,Michelangelo
+A monk by the name of Martin Luther declares the pope as the antichrist. Do you publicly endorse him?,0,15,-15,0,,1515,95 theses
+Your western neighbors offer you a cartload of rodents as a peace offering. Do you accept?,0,-15,0,5,,,Black Death
 Peasants crowd at your castle starving for food. Do you let them in?,-16,5,0,0,,,
 The clergy believe that cats bring bad luck. Do you exterminate cats as they request?,0,-10,5,0,,,Black Death
-There are reports coming in of priests not remaining celibant within your country. Will you punish them?,0,5,-10,0,,,
-The Italian man in search of trade routes has returned claiming he has sailed to India. Do you send any explorers?,7,0,2,1,,,
-The Spanish man in search of trade routes has returned claiming he has sailed to India. Do you send any explorers?,-6,-13,0,0,,,
+There are reports coming in of priests not remaining celibate within your country. Will you punish them?,0,5,-10,0,,,Pre-Reformation
+"The Italian man in search of trade routes has returned claiming he has sailed to India. 
+Do you send any explorers?",7,0,2,1,,,
+"The Spanish man in search of trade routes has returned claiming he has sailed to India. 
+Do you send any explorers?",-6,-13,0,0,,,
 A well known scholar has been preaching that the Earth is round. Do you silence him?,0,8,9,0,,1543,Copernicus
-Henry VIII of England has just declared Anglicanism the new official religion. Will you continue trading with England?,999,999,-10,0,,,
-The Holy Roman Empire has sent some emmisaries to warn you against Lutheranism. Do you throw them out the window?,0,1,-7,0,,1618,Defenestration of Prague
-A group of protestant radicals has assembled in the Holy Roman Empire. Would you like to fund the movement?,-5,10,-5,-1,,,
+"Henry VIII of England has just declared Anglicanism the new official religion. 
+Will you continue trading with England?",999,999,-10,0,,,
+The Spanish are preparing an armada in an attempt to invade England. Will you contribute your forces?,-5,0,0,-5,,,
+"The Holy Roman Empire has sent some emmisaries to warn you against Lutheranism. 
+Do you throw them out the window?",0,1,-7,0,,1618,"Defenestration 
+of Prague"
+"A group of protestant radicals has assembled in the Holy Roman Empire. 
+Would you like to fund the movement?",-5,10,-5,-1,,,
 The people wish to organize a royal banquet at your castle. Do you accept?,-4,5,0,-3,,,
-The series of religious wars that has come to be known as the Thirty Years War has ended. Will you sign the Peace of Westphalia?,2,999,-10,5,,,
+"The series of religious wars that has come to be known as the Thirty Years War has ended. 
+Will you sign the Peace of Westphalia?",2,999,-10,5,,,
+"An eccentric investor claims to have found a new way to create gold from aluminum ore. 
+Do you give him an investment?",-6,0,0,0,,,
+A rural farmer asks for your support of traditional farming methods. Do you agree with his request?,-11,6,0,-4,,,
+"Cattle farmers complain that new technology is putting their bulls out of work. Do you place a tax to fight
+against mechanized farming?",-10,5,0,0,,,
+"A group of physiocrats approaches your royal court and suggests that you divert some funds from the military
+ to increase agricultural output. Would you like to do this?",5,5,0,-5,,,
+Disputing farmers seek to surround their land with fences. Do you support this enclosing movement?,9,-6,0,0,,,
+"A rural peasant family approaches you and asks if you would start enforcing the cottage industry. 
+Will you support it?",4,4,0,3,,,
+The people are upset over Ducth's lack of religious toleration. Do you grant freedom of religion to all?,0,3,-13,0,,,
+"News has broken out that Britain has declared war on France in the New World. Would you like to send troops 
+to fight the French?",-10,10,0,5,,,
+"A well known philosophe has just published a seditious book calling you a tyrant and saying your mother was 
+a hamster. Do you punish the man for criticizing your government?",0,-7,3,2,,,
+Artisans want you to create urban guilds to replace the traditional institution. Will you do it?,999,5,0,0,,,
+"A pious Christian woman begs you to outlaw bloodsports such as bullbaiting and cockfighting. 
+Do you heed her request?",-5,-5,6,0,,,
+"A preacher by the name of John Wesley has asked to visit Dutch and spread the news of his new religion of 
+methodism. Do you allow him into your country?",0,5,-5,0,,,
+"Abbé Sieyès, a prominent French thinker, has argued that the third estate deserves more representation in 
+French parlement. Do you publicly endorse him?",0,5,-5,-1,,,
+Louis XVI has requested military support to quell an uprising in France. Do you help him?,-10,-7,1,-7,,,
+"Following the imprisonment of Louis XVI, Prussia has issued the Declaration of Pillnitz stating their desired goal 
+to restore the Bourbon monarchy. Do you assist the Prussians?",-7,-5,3,-5,,,
+"The French king has been beheaded and a new leader by the name of Maximilien Robespierre has come to 
+power. Will you support this new leader?",0,-5,-15,0,,,
+"A group of conspirators has expressed plans to kill Robespierre and put an end to the Reign of Terror. Do you 
+provide financial aid to these people?",-10,8,5,0,,,
+"Following Robespierre's execution, a new leader by the name of Napoleon has come to power. He asks that you
+stop all trade with the British. Do you listen to him?",-7,-3,0,5,,,
+Napoleon now asks that you provide military support for his invasion of Russia. Will you support him?,-4,2,3,-10,,,
+"A British inventor asks for financial aid in creating his new transportation device that he claims can carry goods
+six times faster than a horse and buggy. Will you help him?",999,0,0,0,,,
+"A well known astronomer claims to have discovered a new fuel source harvested from whale bones. Do you
+fund his new research venture?",-9,-1,-3,0,,,
+"An inventor by the name of James Watt requests financial aid to create a new machine powered by a 
+brownish-black sedimentary rock. Do you support his venture?",14,2,0,4,,,
+"An inventor by the name of Ames Dott requests financial aid to create a new machine powered by a
+blackish-red igneous mineral. Do you support his venture?",-4,0,0,0,,,
+"At the Congress of Vienna, you hear news of a Holy Alliance forming between Austria, Prussia, and Russia to
+uphold christianity and conservative politics in Europe. Do you join the alliance?",3,-5,10,5,,,
+"News has broken out that the Greeks are fighting for their independence from the Ottoman Empire. Will you 
+support them with naval reinforcements.",-4,9,11,5,,,
