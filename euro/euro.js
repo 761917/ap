@@ -4,6 +4,7 @@ var questions, cur;
 var player;
 var end;
 var song;
+var ceiling;
 
 function preload()
 {
@@ -32,6 +33,7 @@ imageMode(CENTER);
 textSize(width/20);
 end=false;
 song.loop();
+ceiling=30;
 }
 
 function draw() {

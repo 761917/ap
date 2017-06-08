@@ -17,17 +17,41 @@ function Question(r)
   {
     if(verdad==true)
     { 
-      player.money+=this.money;
-      player.people+=this.people;
-      player.clergy+=this.clergy;
-      player.army+=this.army;
+      if(player.money+this.money>ceiling)
+        player.money=ceiling;
+      else
+        player.money+=this.money;
+      if(player.people+this.people>ceiling)
+        player.people=ceiling;
+      else
+        player.people+=this.people;
+      if(player.clergy+this.clergy>ceiling)
+        player.clergy=ceiling;
+      else
+        player.clergy+=this.clergy;
+      if(player.army+this.army>ceiling)
+        player.army=ceiling;
+      else
+        player.army+=this.army;
     }
     else
     {
-      player.money-=this.money;
-      player.people-=this.people;
-      player.clergy-=this.clergy;
-      player.army-=this.army;
+      if(player.money-this.money>ceiling)
+        player.money=ceiling;
+      else
+        player.money-=this.money;
+      if(player.people-this.people>ceiling)
+        player.people=ceiling;
+      else
+        player.people-=this.people;
+      if(player.clergy-this.clergy>ceiling)
+        player.clergy=ceiling;
+      else
+        player.clergy-=this.clergy;
+      if(player.army-this.army>ceiling)
+        player.army=ceiling;
+      else
+        player.army-=this.army;
     }
   }
 }

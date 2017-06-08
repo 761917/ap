@@ -4,8 +4,8 @@ This Occured
 Relevance"
 "A new up and coming renaissance artist is requesting funds for his next work of art. 
 Would you like to fund this endeavor?",999,999,5,0,,Fake event,N/A
-"A young girl approaches you, claiming she can aid the army in the 100 years war.",0,0,0,10,,1428,Joan of Ark
-Spain requests your help in hunting down heretics.,5,-10,10,0,,1478,Spanish Inquisition
+"A young girl approaches you, claiming she can aid the army in the 100 years war. Do you accept her?",0,0,0,10,,1428,Joan of Ark
+Spain requests your help in hunting down heretics. Do you help them?,5,-10,10,0,,1478,Spanish Inquisition
 A young man from Italy requests funds to find new trade routes.,5,5,5,5,,1492,Columbus
 A young Spanish man requests funds to find new trade routes.,-20,0,0,0,,Fake event,N/A
 "The pope is furious with a young man who painted obscenities on the Sistine Chapel. 
@@ -41,7 +41,7 @@ against mechanized farming?",-10,5,0,0,,,
 Disputing farmers seek to surround their land with fences. Do you support this enclosing movement?,9,-6,0,0,,,
 "A rural peasant family approaches you and asks if you would start enforcing the cottage industry. 
 Will you support it?",4,4,0,3,,,
-The people are upset over Ducth's lack of religious toleration. Do you grant freedom of religion to all?,0,3,-13,0,,,
+The people are upset over Dutch's lack of religious toleration. Do you grant freedom of religion to all?,0,3,-13,0,,,
 "News has broken out that Britain has declared war on France in the New World. Would you like to send troops 
 to fight the French?",-10,10,0,5,,,
 "A well known philosophe has just published a seditious book calling you a tyrant and saying your mother was 
@@ -74,4 +74,43 @@ blackish-red igneous mineral. Do you support his venture?",-4,0,0,0,,,
 "At the Congress of Vienna, you hear news of a Holy Alliance forming between Austria, Prussia, and Russia to
 uphold christianity and conservative politics in Europe. Do you join the alliance?",3,-5,10,5,,,
 "News has broken out that the Greeks are fighting for their independence from the Ottoman Empire. Will you 
-support them with naval reinforcements.",-4,9,11,5,,,
+support them with naval reinforcements?",-4,9,11,5,,,
+"All across Europe, liberals and socialists are banding together and overthrowing their conservative monarchs.
+For the preservation of order in your nation, do you restrict your people's rights?",999,-10,0,999,,,
+"Your financial minister suggests that you should reconstruct your capital city by building wider roads and 
+boulevards to allow for greater transport. Do you undertake this project?",-7,9,0,13,,,
+"A Russian scientist has found a link between unsanitary drinking water and the cholera epidemic. He proposes
+replacing the drinking water with vodka. Do you accept?",-10,5,-21,-4,,,
+"A British scientist by the name of Chadwick has also observed the link between drinking water and cholera 
+but he proposes creating a basic sewage and drainage system. Do you accept?",-7,15,0,3,,,
+"The Prussian chancellor, Otto von Bismarck, is promising your kingdom territory if you agree to stay neutral 
+during the upcoming Franco-Prussian War. Do you accept?",2,3,-1,2,,,
+"You hear news of many other European nations establishing territories in Africa. Do you send in troops to 
+conquer new lands for your empire?",999,-1,5,999,,,
+"In response to emerging conflicts in the Congo Basin, Bismarck calls 13 European nations to attend the Berlin
+Conference and discuss policies on imperialism. Do you send any representatives?",0,2,0,7,,,
+"You hear news of Germany forming a defensive alliance with Italy and Austria forming what is known as 
+the Triple Alliance. Would you like to join the alliance?",-18,-16,0,-17,,,
+"At the end of the global war, your country is given the option of demanding reparations from Germany. 
+Do you force Germany to pay up?",4,2,0,-13,,,
+"A disgruntled Polish man comes to you after being rejected from art school. Do you allow the man to become 
+an artist in your country?",-10,999,0,0,,,
+"The new German chancellor, Adolf Hitler, has claimed that the Southern portion of your country contains a
+significant German population. Do you allow him to annex this region to avoid conflict?",-8,-7,0,4,,,
+"Some of your citizens report to you that during their stay in Germany, they witnessed atrocities being commited
+to the German population. Do you intervene immediately rather than waiting for other foreign powers to join you?. ",-14,6,4,-13,,,
+"Gary Heisman has announced that he has found a way to harness atomic energy using nothing but tungsten
+and cobalt. Do you promote this man to the head of your military?",0,0,0,-19,,,
+"You gain intel that an American scientist, Robert Oppenheimer, is developing a new superweapon under the
+the secret Manhattan Project. Do you fund his research?",-9,-3,0,21,,,
+John wants a divorce. Hehehe?,999,999,999,999,,,
+"Your foreign allies ask you attend the Nuremberg Trials in which they plan to convict hundreds of SS officers
+of crimes against humanity. Will you attend?",0,4,4,0,,,
+"Your domestic constituents ask you to attend their witch trials in order to sentence Lisa and Amy for their
+crimes against God and nature. Will you attend?",0,4,4,0,,,
+"You notice the Soviet Union has been aggressively expanding the iron curtain across Eastern Europe. Do you
+attempt to contain communism through military intervention?",-11,-12,0,-5,,,
+"A group of Dutchian scientists suggests that you should create a space program in your country. Do you fund
+the space program?",-13,5,0,0,,,
+"A group of European nations have formed a new European Economic Community to reduce tariffs between
+countries. Do you join the economic union?",999,-1,0,0,,,
